@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url("chat image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    /* Fallback background color */
+    background-color: #000; /* You can replace this with any color */
+}
+
+
+::-webkit-scrollbar{
+    cursor: pointer;
+    width:8px;
+}
+
+::-webkit-scrollbar-track{
+    cursor: pointer;
+    background-color:#555;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#121212;
+    border-radius:5px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background:#242424;
+}
